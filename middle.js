@@ -30,7 +30,7 @@ const middle = function (array) {
     return empty
   }
   if (array.length > 2 && array.length % 2 !== 0) {
-    return array[mid]
+    return Array.from(String(array[mid]), Number)
   }
   if (array.length > 2 && array.length % 2 === 0) {
     let result = []
@@ -38,3 +38,5 @@ const middle = function (array) {
     return result
   }
 }
+
+module.exports = middle
