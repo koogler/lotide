@@ -22,8 +22,8 @@ const assertArraysEqual = function (uno, dos) {
   }
 }
 
-const words = ["ground", "control", "to", "major", "tom"];
-const words2 = ["gary", "conner", "tom", "michael", "tony"]
+// const words = ["ground", "control", "to", "major", "tom"];
+// const words2 = ["gary", "conner", "tom", "michael", "tony"]
 
 const map = function (array, callback) {
   const results = []
@@ -32,6 +32,8 @@ const map = function (array, callback) {
   }
   return results
 }
+
+module.exports = map
 
 //const results1 = map(words, word => word[0]);
 //console.log(results1);

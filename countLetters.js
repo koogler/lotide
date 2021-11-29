@@ -17,3 +17,5 @@ const countLetters = function (sent) {
   }
   return counted
 }
+
+module.exports = countLetters
