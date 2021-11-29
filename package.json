@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@koogler/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A beginner's writen library of functions, based off of Lodash. Done for a project at Lighthouse Labs",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/koogler/lotide.git"
   },
-  "author": "",
+  "author": "Evan P",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/koogler/lotide/issues"
